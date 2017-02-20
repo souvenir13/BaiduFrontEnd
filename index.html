@@ -6,17 +6,17 @@
 </head>
 <body>
 
-<div>Ò³ÃæÕ¹Ê¾£º
+<div>é¡µé¢å±•ç¤ºï¼š
 </div>
-<a href="task13.html">ÈÎÎñÒ»</a>
+<a href="task13.html">ä»»åŠ¡ä¸€</a>
 <script type="text/javascript">
 
     (function() {
         /*
-         ÔÚ×¢ÊÍÏÂ·½Ğ´ÏÂ´úÂë
-         ¸ø°´Å¥button°ó¶¨Ò»¸öµã»÷ÊÂ¼ş
-         ÔÚÊÂ¼ş´¦Àíº¯ÊıÖĞ
-         »ñÈ¡aqi-inputÊäÈëµÄÖµ£¬²¢ÏÔÊ¾ÔÚaqi-displayÖĞ
+         åœ¨æ³¨é‡Šä¸‹æ–¹å†™ä¸‹ä»£ç 
+         ç»™æŒ‰é’®buttonç»‘å®šä¸€ä¸ªç‚¹å‡»äº‹ä»¶
+         åœ¨äº‹ä»¶å¤„ç†å‡½æ•°ä¸­
+         è·å–aqi-inputè¾“å…¥çš„å€¼ï¼Œå¹¶æ˜¾ç¤ºåœ¨aqi-displayä¸­
          */
         var button1 = document.getElementById("button");
         var input_display = document.getElementById("aqi-display");
@@ -25,9 +25,9 @@
             input_display.innerText = parseFloat(input.value);
         }
         button1.addEventListener("click",textDisplay);
-        //¼àÌıµã»÷ÊÂ¼ş
+        //ç›‘å¬ç‚¹å‡»äº‹ä»¶
         input.onkeyup = function(evt){
-            //°´»Ø³µ´¥·¢
+            //æŒ‰å›è½¦è§¦å‘
             if(evt.keyCode == 13){
                 textDisplay();
             }
